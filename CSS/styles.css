@@ -1,0 +1,206 @@
+
+/*MOBILE VERSION*/
+
+head{
+    background-color: #F2F2F2;
+}
+
+.graybackground{
+    background-color: #F2F2F2;
+}
+
+.learntoheading{
+    color: #20a8b4;
+    font-family: "Roboto";
+}
+
+.codeheading{
+    color: #ff5c0f;
+    font-family: "Roboto";
+}
+
+li a{
+    display: block;
+    color: black;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+    display: flex;
+}
+
+p{
+    font-family: "Roboto";
+    color: #000;
+}
+
+
+
+button:hover{
+    color: #fff;
+    background-color: #ff5c0f;
+}
+
+.navigationbar{
+    flex-direction: column;
+}
+
+.doyouthinkblack{
+    color: #000;
+    font-family: "Roboto";
+}
+
+
+.learntocodeorange{
+    color: #ff5c0f;
+    font-family: "Roboto";
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: #ff5c0f;
+}
+
+
+button{
+    
+    background-color: #20a8b4;
+    font-family: "Roboto";
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+button a{
+    color: #fff
+}
+
+button:hover a{
+    color: #fff
+}
+
+
+img{
+    display: none;
+}
+
+
+
+/*DESKTOP VERSION*/
+
+@media screen and (min-width: 768px){
+
+head{
+    background-color: #F2F2F2;
+}
+
+.graybackground{
+    background-color: #F2F2F2;
+}
+
+.learntoheading{
+    color: #20a8b4;
+    font-family: "Roboto";
+    display: inline;
+    font-size: 30px;
+}
+
+.codeheading{
+    color: #ff5c0f;
+    font-family: "Roboto";
+    display: inline;
+    font-size: 30px;
+}
+
+li a{
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+    font-family: "Roboto";
+    display: flex;
+}
+
+.navigationbar{
+    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-inline-end: 900px;
+    margin-bottom: -20px;
+    position: relative;
+    top: -47px;
+    left: 700px;
+}
+
+p{
+    font-family: "Roboto";
+    color: #000;
+}
+
+
+
+button:hover{
+    color: #fff;
+    background-color: #ff5c0f;
+}
+
+
+
+.doyouthinkblack{
+    color: #000;
+    font-family: "Roboto";
+}
+
+
+.learntocodeorange{
+    color: #ff5c0f;
+    font-family: "Roboto";
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff5c0f;
+}
+
+
+button{
+    
+    background-color: #20a8b4;
+    font-family: "Roboto";
+    padding: 12px;
+    border-radius: 10px;
+    width: auto;
+}
+
+button a{
+    color: #fff
+}
+
+button:hover a{
+    color: #fff
+}
+
+img{
+    display: visible;
+    float: right;
+    margin-left: -150px;
+    margin-top: -250px;
+    margin-right: 250px;
+}
+
+
+}
+
+
